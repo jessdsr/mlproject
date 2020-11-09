@@ -1,4 +1,5 @@
 import webbrowser
 
 def lets_play():
-    webbrowser.open('https://en.akinator.com', new=2)
+    print('is Akinator the king of machine learning?')
+    return webbrowser.open('http://en.akinator.com', new=2)

@@ -2,6 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import webbrowser
+from mlproject.letsplay import lets_play
 
-def lets_play():
-    webbrowser.open('https://en.akinator.com', new=2)
+lets_play()
